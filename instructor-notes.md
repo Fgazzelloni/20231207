@@ -2,6 +2,10 @@
 title: 'Instructor Notes'
 ---
 
-Carpentries Instructor: Federica Gazzelloni
 
-To use the latest version of RStudio, install R and RStudio Desktop from here: <https://posit.co/download/rstudio-desktop/>
+
+Welcome to the 8th episode of Data Visualisation with ggplot2. 
+
+My name is Federica Gazzelloni and I am your carpentries instructor for this episode
+
+
