@@ -8,16 +8,16 @@
 # lc: Library Carpentry
 # cp: Carpentries (to use for instructor training for instance)
 # incubator: The Carpentries Incubator
-carpentry: 'incubator'
+carpentry: 'swc'
 
 # Overall title for pages.
-title: 'Lesson Title' # FIXME
+title: 'Software Carpentry: Creating Publication-Quality Graphics with ggplot2' # FIXME
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: ~ # FIXME
+created: 2023-12-07
 
 # Comma-separated list of keywords for the lesson
-keywords: 'software, data, lesson, The Carpentries' # FIXME
+keywords: 'software, data, lesson, The Carpentries, Data Visualization' # FIXME
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
@@ -27,13 +27,13 @@ life_cycle: 'pre-alpha' # FIXME
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/carpentries/workbench-template-rmd' # FIXME
+source: 'https://github.com/Fgazzelloni/20231207' # FIXME
 
 # Default branch of your lesson
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'team@carpentries.org' # FIXME
+contact: 'fede.gazzelloni@gmail.com' # FIXME
 
 # Navigation ------------------------------------------------
 #
@@ -58,17 +58,19 @@ contact: 'team@carpentries.org' # FIXME
 # - another-learner.md
 
 # Order of episodes in your lesson
-episodes: 
-- introduction.Rmd
+episodes:
+- creating_publication-quality_graphics_with_ggplot2.Rmd
 
-# Information for Learners
-learners: 
 
-# Information for Instructors
-instructors: 
+learners:
+- setup.md
+- reference.md
 
-# Learner Profiles
-profiles: 
+instructors:
+- instructor-notes.md
+
+profiles:
+- learner-profiles.md
 
 # Customisation ---------------------------------------------
 #
