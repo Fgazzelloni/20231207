@@ -27,15 +27,9 @@ Plotting our data is one of the best ways to
 quickly explore it and the various relationships
 between variables.
 
-There are three main plotting systems in R,
-the [base plotting system][base], the [lattice]
-package, and the [ggplot2] package.
+Today we'll be learning about the ggplot2 package.
 
-Today we'll be learning about the ggplot2 package, because
-it is the most effective for creating publication-quality
-graphics.
-
-ggplot2 is built on the grammar of graphics, the idea that any plot can be
+ggplot2 is built on the `grammar of graphics`, the idea that any plot can be
 built from the same set of components: a **data set**,
 **mapping aesthetics**, and graphical **layers**:
 
