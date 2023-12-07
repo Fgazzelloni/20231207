@@ -8,13 +8,13 @@
 # lc: Library Carpentry
 # cp: Carpentries (to use for instructor training for instance)
 # incubator: The Carpentries Incubator
-carpentry: 'incubator'
+carpentry: 'swc'
 
 # Overall title for pages.
 title: 'Software Carpentry: Creating Publication-Quality Graphics with ggplot2' # FIXME
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: ~ # FIXME
+created: 2023-12-07
 
 # Comma-separated list of keywords for the lesson
 keywords: 'software, data, lesson, The Carpentries, Data Visualization' # FIXME
@@ -59,16 +59,17 @@ contact: 'fede.gazzelloni@gmail.com' # FIXME
 
 # Order of episodes in your lesson
 episodes:
-- Creating_Publication-Quality_Graphics_with_ggplot2.qmd
+- creating_publication-quality_graphics_with_ggplot2.Rmd
 
-# Information for Learners
-learners: "Pratictioners"
 
-# Information for Instructors
-instructors: "Federica Gazzelloni"
+learners:
+- setup.md
 
-# Learner Profiles
-profiles: "Data Visualization pratctioners with a basic knowledge of R"
+instructors:
+- instructor-notes.md
+
+profiles:
+- learner-profiles.md
 
 # Customisation ---------------------------------------------
 #
